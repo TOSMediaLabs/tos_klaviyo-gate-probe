@@ -13,4 +13,9 @@ final class Probe
     {
         return array_sum($werte);
     }
+
+    public static function durchschnitt(int ...$werte): float
+    {
+        return array_sum($werte) / count($werte);
+    }
 }
