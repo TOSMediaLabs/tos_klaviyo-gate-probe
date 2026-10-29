@@ -1,0 +1,2 @@
+Kuenstliche Testdatei fuer den Negativtest S5a.
+Kein Inhalt mit Bedeutung. Dieser PR darf ohne Freigabe nicht mergebar sein.
