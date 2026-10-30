@@ -39,7 +39,7 @@ jobs:
           MANIFEST: |
             100644 0e02c0d0cfd03bba0574e2971265f291f7d7b7eb199ee4511427603796979713 .github/CODEOWNERS
             100644 47319e823a85c80d5384da6a21bc6d87a2d8dbec3fadfae352916a436c5c1836 AGENTS.md
-            100644 49b0e4589ef32ddad4a1c854b0cee99298afaff4f2803037c89c989b966708e8 .github/workflows/php-checks.yml
+            100644 452a1dfb8e0c2f5dd877a277d20541afc9a442ae442e2b167a315b2980a1c61e .github/workflows/php-checks.yml
             100644 4ac92227bdcdbd2c6cd1c4fb59eddb5088588c4b2102eb53d749fd75369b1fca phpstan.neon
             100644 5433a1c3aa0e4bb2d4219911d2b60f5bed63329171aafd430de0639f8f7f071b composer.json
             100644 d33944a1bb9a5186704dab7b14c5f3e4751ca296234d266e7e7bbf96d9491a1d composer.lock
