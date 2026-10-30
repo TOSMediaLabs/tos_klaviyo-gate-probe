@@ -48,7 +48,7 @@ jobs:
         run: vendor/bin/phpstan analyse --no-progress
 
   php-syntax:
-    name: PHP Syntax Check
+    name: PHP Syntax Check (N1-Test)
     runs-on: ubuntu-24.04
     timeout-minutes: 10
 
