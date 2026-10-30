@@ -2,15 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Probe;
+namespace TosMedia\GateProbe;
 
 /**
- * Künstliche Beispielklasse für den Review-Test. Keine Fachlogik.
+ * Minimale Logik, damit PHPStan und Codex im Probe-Repository etwas zu prüfen haben.
  */
 final class Probe
 {
-    public static function summe(int ...$werte): int
+    /**
+     * @param list<int> $werte
+     */
+    public static function summe(array $werte): int
     {
-        return array_sum($werte);
+        $summe = 0;
+        foreach ($werte as $wert) {
+            $summe += $wert;
+        }
+
+        return $summe;
     }
 }
